@@ -11,6 +11,16 @@
     gap: 24px !important;
 }
 
+div#providers {
+    width: 100% !important;
+}
+
+.plugin #providers .provider .button {
+    background: none;
+    background-color: transparent !important;
+    background-position: unset !important;
+}
+
 .plugin #providers .provider {
     flex: 1 !important;
     border: 1px solid #ACACAC !important;
