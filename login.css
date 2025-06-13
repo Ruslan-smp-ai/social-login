@@ -18,7 +18,8 @@ div#providers {
 .plugin #providers .provider .button {
     background: none;
     background-color: transparent !important;
-    background-position: unset !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
 }
 
 .plugin #providers .provider {
