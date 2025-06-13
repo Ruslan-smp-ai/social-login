@@ -20,6 +20,8 @@ div#providers {
     background-color: transparent !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
+    width: 100% !important;
+    padding: 7px 0 !important;
 }
 
 .plugin #providers .provider {
@@ -30,7 +32,13 @@ div#providers {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    padding: 7px 0 !important;
+    padding: 0 !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.plugin #providers .provider:hover {
+    border-color: #000000 !important;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) !important;
 }
 
 .plugin .footer #branding {
@@ -54,5 +62,5 @@ a#button_spotify {
 }
 
 a#button_facebook {
-    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z' fill='%233F65A6'/%3E%3Cpath d='M13.5688 10.7375C13.5688 11.2 13.5688 13.2625 13.5688 13.2625H11.7188V16.35H13.5688V24.8125H17.3687V16.3437H19.9188C19.9188 16.3437 20.1562 14.8625 20.275 13.2437C19.9437 13.2437 17.3875 13.2437 17.3875 13.2437C17.3875 13.2437 17.3875 11.45 17.3875 11.1312C17.3875 10.8187 17.8 10.3937 18.2125 10.3937C18.6187 10.3937 19.4812 10.3937 20.2812 10.3937C20.2812 9.97499 20.2812 8.51874 20.2812 7.18124C19.2125 7.18124 18 7.18124 17.4688 7.18124C13.475 7.18749 13.5688 10.275 13.5688 10.7375Z' fill='white'/%3E%3C/svg%3E%0A") !important;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.1843 1.04688H4.81531C2.7595 1.04688 1.08731 2.72381 1.08731 4.78512V27.2146C1.08731 29.2761 2.75956 30.9531 4.81531 30.9531H27.1843C29.2404 30.9531 30.9127 29.2761 30.9127 27.2146V4.78519C30.9127 2.72381 29.2405 1.04688 27.1843 1.04688Z' fill='%231B80E4'/%3E%3Cpath d='M26.2524 16H21.5922V12.2617C21.5922 11.2298 22.4275 11.3272 23.4562 11.3272H25.3206V6.65424H21.5922C18.5034 6.65424 16.0001 9.16436 16.0001 12.2617V16H12.272V20.6729H16.0001V30.9531H21.5922V20.6729H24.3883L26.2524 16Z' fill='%23FCFCFC'/%3E%3C/svg%3E%0A") !important;
 }
